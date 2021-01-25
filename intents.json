@@ -1,0 +1,27 @@
+{"intents": [
+    {"tag": "saludo",
+     "patterns": ["hola", "Buenas", "Buenos dias", "Buenas tardes"],
+     "responses": ["Buenas", "Hola", "Que hay?"]
+    },
+    {"tag": "adios",
+     "patterns": ["Chao", "Ciao", "Adios","Hasta otra", "hasta la proxima"],
+     "responses": ["Chao!", "Que tengas un buen dia", "Adios", "Hasta otra", "Hasta la proxima"]
+    },
+    {"tag": "gracias",
+     "patterns": ["Gracias por todo", "Gracias", "Gracias por la ayuda"],
+     "responses": ["De nada!", "Estoy para lo que quieras", "Estoy para lo que necesites", "Encantada!"]
+    },
+    {"tag": "sobre",
+     "patterns": ["Quien eres?", "Que eres?"],
+     "responses": ["Soy Denna, un asistente artificial", "Soy Denna, un bot de inteligencia artificial"]
+    },
+    {"tag": "nombre",
+    "patterns": ["cual es tu nombre?", "Como deberia llamarte?", "Como te llamas?"],
+    "responses": ["Puedes llamarme Denna", "Soy Denna", "Llamame Denna"]
+    },
+    {"tag": "ayuda",
+    "patterns": ["Puedes ayudarme?", "echame una mano por favor", "Que puedes hacer por mi?", "NEcesito ayuda", "ayudame por favor"],
+    "responses": ["Dime como puedo ayudarte", "Cuentame el problema", "Claro, como puedo ayudarte?"]
+    }
+]
+}
